@@ -19,27 +19,74 @@
     <div class="container">
         <div class="weather-input">
             <h2>Enter a City Name</h2>
-            <input type="text" id="city-input" placeholder="City Name">
+            <input type="text" id="city-input" placeholder="City Name"><br>
             <button class="search-btn">Search</button>
+            <div class="separator"></div>
             <button class="location-btn">Current Location</button>
         </div>
         <div class="weather-data">
-            <div class="weather-info">
+            <div class="current-weather">
                 <h2>Weather Information</h2>
                 <div class="weather-details">
+                    <h2>Barcelona (2023-11-22)</h2>
                     <h3>Temperature</h3>
-                    <p id="temperature"></p>
+                    <p id="temperature">13ºC</p>
                     <h3>Wind</h3>
-                    <p id="wind"></p>
+                    <p id="wind">6.2m/s</p>
                     <h3>Humidity</h3>
-                    <p id="humidity"></p>
+                    <p id="humidity">59%</p>
                 </div>
                 <div class="icon">
-                    <img id="weather-icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
-                    <h3>Moderate Rain</h3>
+                    <img id="weather-icon" src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon">
+                    <h4>Moderate Rain</h4>
+                </div>
+            </div>
+            <h2 id="forecast-title">5 Day Forecast</h2><br>
+            <div class="days-forecast">
+                <div class="day-forecast">
+                    <h3>Thursday(2023-11-23)</h3>
+                    <div class="forecast-details">
+                        <img src="https://openweathermap.org/img/wn/09d@2x.png" alt="weather-Icon">
+                        <h4>Rain</h4>
+                        <p>High: 17°C Low: 12°C</p>
+                    </div>
+                </div>
+                <div class="day-forecast">
+                    <h3>Friday(2023-11-24)</h3>
+                    <div class="forecast-details">
+                        <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="weather-icon">
+                        <h4>Cloudy</h4>
+                        <p>High: 18°C Low: 13°C</p>
+                    </div>
+                </div>
+                <div class="day-forecast">
+                    <h3>Saturday(2023-11-25)</h3>
+                    <div class="forecast-details">
+                        <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="weather-icon">
+                        <h4>Cloudy</h4>
+                        <p>High: 19°C Low: 14°C</p>
+                    </div>
+                </div>
+                <div class="day-forecast">
+                    <h3>Thursday Sunday(2023-11-26)</h3>
+                    <div class="forecast-details">
+                        <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+                        <h4>Clear Sky</h4>
+                        <p>High: 20°C Low: 15°C</p>
+                    </div>
+                </div>
+                <div class="day-forecast">
+                    <h3>Monday (2023-11-27)</h3>
+                    <div class="forecast-details">
+                        <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+                        <h4>Clear Sky</h4>
+                        <p>High: 21°C Low: 16°C</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
 
 </body>

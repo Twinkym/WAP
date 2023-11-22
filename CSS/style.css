@@ -167,7 +167,8 @@ h1 {
 
 #forecast-title {
     text-align: center;
-    width: 100vw;
+    width: 50vw;
+    margin: 0 auto;
     height: calc(100% / 9);
     background-color: rgba(255, 255, 255, 0.31);
     padding: 10px;
@@ -185,12 +186,18 @@ h1 {
 }
 
 .day-forecast {
-    row-gap: 10px;
+
     background-color: rgba(35, 27, 72, .2);
     border-radius: 10px;
     border: #000 solid 1px;
     justify-content: space-around;
     width: calc(100% / 6);
+}
+
+.day-forecast h3 {
+    font-size: .5rem;
+    color: #fff;
+    text-align: center;
 }
 
 .day-forecast .forecast-details {

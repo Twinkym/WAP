@@ -212,3 +212,45 @@ h1 {
     max-width: 70px;
     margin: 5px 0 -12px 0;
 }
+
+@media(max-width: 1200px) {
+    .day-forecast {
+        width: calc(100% / 4 -12px);
+    }
+}
+
+@media (max-width: 950px) {
+    .weather-input {
+        width: 100%;
+    }
+
+    .day-forecast {
+        width: calc(100% / 3 -12px);
+    }
+}
+
+@media (max-width: 700px) {
+    .day-forecast {
+        width: calc(100% / 2 -12px);
+    }
+}
+
+@media (max-width: 500px) {
+    .day-forecast {
+        width: calc(100% - 12px);
+    }
+}
+
+@media (max-width: 350px) {
+    .day-forecast {
+        width: calc(100% - 12px);
+    }
+
+    .weather-input {
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+}

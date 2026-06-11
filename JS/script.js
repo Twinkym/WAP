@@ -2,7 +2,7 @@ const searchButton = document.querySelector(".search-btn");
 const cityInput = document.querySelector("#city-input");
 const weatherCardsDiv = document.querySelector(".day-forecast");
 
-const API_KEY = 'b17391f2124da0d51502ad5f14e519f7'; // API key for openWeatherMap API
+const API_KEY = 'your api key here'; // API key for openWeatherMap API
 const uniqueForecastDays = [];
 
 const createWeatherCard = (weatherItem) => {
